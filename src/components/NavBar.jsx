@@ -69,29 +69,29 @@ export default function NavBar() {
 						<div className="modal-body">
 							<ul className="navbar-nav">
 								<li className="nav-item text-center">
-									<a className="nav-link active" aria-current="page" href="/">
+									<Link className="nav-link active" aria-current="page" to="/">
 										Home
-									</a>
+									</Link>
 								</li>
 								<li className="nav-item text-center">
-									<a className="nav-link" href="/about">
+									<Link className="nav-link" to="/about">
 										About
-									</a>
+									</Link>
 								</li>
 								<li className="nav-item text-center">
-									<a className="nav-link" href="/contact">
+									<Link className="nav-link" to="/contact">
 										Contact
-									</a>
+									</Link>
 								</li>
 								<li className="nav-item text-center">
-									<a className="nav-link" href="/blog">
+									<Link className="nav-link" to="/blog">
 										Blog
-									</a>
+									</Link>
 								</li>
 								<li className="nav-item text-center">
-									<a className="nav-link" href="/careers">
+									<Link className="nav-link" to="/careers">
 										Careers
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>
