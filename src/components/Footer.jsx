@@ -4,6 +4,7 @@ import yt from "../../public/images/icon-youtube.svg";
 import tw from "../../public/images/icon-twitter.svg";
 import pi from "../../public/images/icon-pinterest.svg";
 import ig from "../../public/images/icon-instagram.svg";
+import { Link } from "react-router-dom";
 export default function Footer() {
 	return (
 		<footer className="bg-primary text-white py-5">
@@ -12,41 +13,41 @@ export default function Footer() {
 					<div className="col-12 col-xl-4 mb-5 mb-xl-0">
 						<img src={logo} alt="Easy Bank" />
 						<div className="d-flex gap-3 mt-5">
-							<a
-								href="https://www.facebook.com/"
+							<Link
+								to="https://www.facebook.com/"
 								target="_blank"
 								rel="noreferrer"
 							>
 								<img src={fb} alt="Facebook" />
-							</a>
-							<a
-								href="https://www.youtube.com/"
+							</Link>
+							<Link
+								to="https://www.youtube.com/"
 								target="_blank"
 								rel="noreferrer"
 							>
 								<img src={yt} alt="Youtube" />
-							</a>
-							<a
-								href="https://www.twitter.com/"
+							</Link>
+							<Link
+								to="https://www.twitter.com/"
 								target="_blank"
 								rel="noreferrer"
 							>
 								<img src={tw} alt="Twitter" />
-							</a>
-							<a
-								href="https://www.pinterest.com/"
+							</Link>
+							<Link
+								to="https://www.pinterest.com/"
 								target="_blank"
 								rel="noreferrer"
 							>
 								<img src={pi} alt="Pinterest" />
-							</a>
-							<a
-								href="https://www.instagram.com/"
+							</Link>
+							<Link
+								to="https://www.instagram.com/"
 								target="_blank"
 								rel="noreferrer"
 							>
 								<img src={ig} alt="Instagram" />
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className="col-12 col-xl-4  mb-5 mb-xl-0">
@@ -54,56 +55,56 @@ export default function Footer() {
 							<div className="col-6">
 								<ul className="list-unstyled">
 									<li className="mb-3">
-										<a
-											href="/about"
+										<Link
+											to="/about"
 											className="footer-text text-decoration-none"
 										>
 											About Us
-										</a>
+										</Link>
 									</li>
 									<li className="mb-3">
-										<a
-											href="/contact"
+										<Link
+											to="/contact"
 											className="footer-text text-decoration-none"
 										>
 											Contact
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a
-											href="/blog"
+										<Link
+											to="/blog"
 											className="footer-text text-decoration-none"
 										>
 											Blog
-										</a>
+										</Link>
 									</li>
 								</ul>
 							</div>
 							<div className="col-6">
 								<ul className="list-unstyled">
 									<li className="mb-3">
-										<a
-											href="/careers"
+										<Link
+											to="/careers"
 											className="footer-text text-decoration-none"
 										>
 											Careers
-										</a>
+										</Link>
 									</li>
 									<li className="mb-3">
-										<a
-											href="/support"
+										<Link
+											to="/support"
 											className="footer-text text-decoration-none"
 										>
 											Support
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a
-											href="/privacy-policy"
+										<Link
+											to="/privacy-policy"
 											className="footer-text text-decoration-none"
 										>
 											Privacy Policy
-										</a>
+										</Link>
 									</li>
 								</ul>
 							</div>
