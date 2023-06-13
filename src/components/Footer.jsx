@@ -11,7 +11,9 @@ export default function Footer() {
 			<div className="container">
 				<div className="row">
 					<div className="col-12 col-xl-4 mb-5 mb-xl-0">
-						<img src={logo} alt="Easy Bank" />
+						<Link to="/">
+							<img src={logo} alt="Easy Bank" />
+						</Link>
 						<div className="d-flex gap-3 mt-5">
 							<Link
 								to="https://www.facebook.com/"

@@ -8,9 +8,9 @@ export default function NavBar() {
 		<nav className="navbar navbar-expand-md bg-white py-4">
 			<div className="container">
 				<div>
-					<a className="navbar-brand" href="/">
+					<Link className="navbar-brand" to="/">
 						<img src={logo} alt="Easy Bank" />
-					</a>
+					</Link>
 				</div>
 				<div>
 					<button
