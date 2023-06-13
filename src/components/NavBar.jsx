@@ -3,7 +3,11 @@ import logo from "../../public/images/logo.svg";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Link } from "react-router-dom";
 export default function NavBar() {
-	// Basic Bootstrap Navbar
+	// Dismiss modal on link click
+	const dismissModal = () => {
+		const modal = document.querySelector(".navbar-toggler");
+		modal.click();
+	};
 	return (
 		<nav className="navbar navbar-expand-md bg-white py-4">
 			<div className="container">
@@ -69,27 +73,40 @@ export default function NavBar() {
 						<div className="modal-body">
 							<ul className="navbar-nav">
 								<li className="nav-item text-center">
-									<Link className="nav-link active" aria-current="page" to="/">
+									<Link
+										className="nav-link active"
+										aria-current="page"
+										to="/"
+										onClick={dismissModal}
+									>
 										Home
 									</Link>
 								</li>
 								<li className="nav-item text-center">
-									<Link className="nav-link" to="/about">
+									<Link className="nav-link" to="/about" onClick={dismissModal}>
 										About
 									</Link>
 								</li>
 								<li className="nav-item text-center">
-									<Link className="nav-link" to="/contact">
+									<Link
+										className="nav-link"
+										to="/contact"
+										onClick={dismissModal}
+									>
 										Contact
 									</Link>
 								</li>
 								<li className="nav-item text-center">
-									<Link className="nav-link" to="/blog">
+									<Link className="nav-link" to="/blog" onClick={dismissModal}>
 										Blog
 									</Link>
 								</li>
 								<li className="nav-item text-center">
-									<Link className="nav-link" to="/careers">
+									<Link
+										className="nav-link"
+										to="/careers"
+										onClick={dismissModal}
+									>
 										Careers
 									</Link>
 								</li>
