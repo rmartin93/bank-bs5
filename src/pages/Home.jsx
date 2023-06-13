@@ -82,7 +82,7 @@ export default function Home() {
 			</div>
 			<div
 				className="container latest-articles"
-				style={{ paddingTop: "5rem", paddingBottom: "5rem" }}
+				style={{ paddingTop: "5rem", paddingBottom: "3rem" }}
 			>
 				<div className="row">
 					<div className="col-12">
@@ -91,7 +91,7 @@ export default function Home() {
 				</div>
 				<div className="row">
 					<div className="col-xl-3 mb-5 mb-xl-0">
-						<div className="card border-0">
+						<div className="card border-0 shadow-sm">
 							<img src={currency} className="card-img-top" alt="Currency" />
 							<div className="card-body">
 								<h6 class="card-subtitle mt-4 mb-2 text-muted">
@@ -109,7 +109,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="col-xl-3 mb-5 mb-xl-0">
-						<div className="card border-0">
+						<div className="card border-0 shadow-sm">
 							<img src={restaurant} className="card-img-top" alt="Restaurant" />
 							<div className="card-body">
 								<h6 class="card-subtitle mt-4 mb-2 text-muted">
@@ -126,7 +126,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="col-xl-3 mb-5 mb-xl-0">
-						<div className="card border-0">
+						<div className="card border-0 shadow-sm">
 							<img src={plane} className="card-img-top" alt="Plane" />
 							<div className="card-body">
 								<h6 class="card-subtitle mt-4 mb-2 text-muted">
@@ -144,7 +144,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="col-xl-3 mb-5 mb-xl-0">
-						<div className="card border-0">
+						<div className="card border-0 shadow-sm">
 							<img src={confetti} className="card-img-top" alt="Plane" />
 							<div className="card-body">
 								<h6 class="card-subtitle mt-4 mb-2 text-muted">
