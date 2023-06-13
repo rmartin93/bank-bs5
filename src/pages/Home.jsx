@@ -1,11 +1,11 @@
-import online from "../../public/images/icon-online.svg";
-import budgeting from "../../public/images/icon-budgeting.svg";
-import onboarding from "../../public/images/icon-onboarding.svg";
-import api from "../../public/images/icon-api.svg";
-import confetti from "../../public/images/image-confetti.jpg";
-import currency from "../../public/images/image-currency.jpg";
-import plane from "../../public/images/image-plane.jpg";
-import restaurant from "../../public/images/image-restaurant.jpg";
+import online from "../images/icon-online.svg";
+import budgeting from "../images/icon-budgeting.svg";
+import onboarding from "../images/icon-onboarding.svg";
+import api from "../images/icon-api.svg";
+import confetti from "../images/image-confetti.jpg";
+import currency from "../images/image-currency.jpg";
+import plane from "../images/image-plane.jpg";
+import restaurant from "../images/image-restaurant.jpg";
 export default function Home() {
 	return (
 		<>
@@ -47,7 +47,7 @@ export default function Home() {
 					<div className="row" style={{ marginTop: "5rem" }}>
 						<div className="col-xl-3 text-center text-xl-start">
 							<img src={online} alt="Online Icon" />
-							<h3 className="mt-5">Online Banking</h3>
+							<h3 className="mt-5">Simple Budgeting</h3>
 							<p className="text-secondary">
 								Our modern web and mobile applications allow you to keep track
 								of your finances wherever you are in the world.
@@ -81,8 +81,8 @@ export default function Home() {
 				</div>
 			</div>
 			<div
-				className="container"
-				style={{ paddingTop: "5rem", paddingBottom: "8rem" }}
+				className="container latest-articles"
+				style={{ paddingTop: "5rem", paddingBottom: "5rem" }}
 			>
 				<div className="row">
 					<div className="col-12">
@@ -90,54 +90,76 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="row">
-					<div className="col-xl-3 text-center text-xl-start">
-						<img
-							src={currency}
-							alt="Currency"
-							className="rounded-top article-image mb-4"
-						/>
-						<h3>Receive money in any currency with no fees</h3>
-						<p className="text-secondary">
-							The world is getting smaller and we're becoming more mobile. So
-							why should you be forced to only receive money in a single …
-						</p>
+					<div className="col-xl-3 mb-5 mb-xl-0">
+						<div className="card border-0">
+							<img src={currency} className="card-img-top" alt="Currency" />
+							<div className="card-body">
+								<h6 class="card-subtitle mt-4 mb-2 text-muted">
+									By Claire Robinson
+								</h6>
+								<h3 className="card-title">
+									Receive money in any currency with no fees
+								</h3>
+								<p className="card-text text-secondary">
+									The world is getting smaller and we're becoming more mobile.
+									So why should you be forced to only receive money in a single
+									…
+								</p>
+							</div>
+						</div>
 					</div>
-					<div className="col-xl-3 text-center text-xl-start">
-						<img
-							src={restaurant}
-							alt="Restaurant"
-							className="rounded-top article-image mb-4"
-						/>
-						<h3>Receive money in any currency with no fees</h3>
-						<p className="text-secondary">
-							Our simple budgeting feature allows you to separate out your
-							spending and set realistic limits each month. That means you
-						</p>
+					<div className="col-xl-3 mb-5 mb-xl-0">
+						<div className="card border-0">
+							<img src={restaurant} className="card-img-top" alt="Restaurant" />
+							<div className="card-body">
+								<h6 class="card-subtitle mt-4 mb-2 text-muted">
+									By Walton Hutton
+								</h6>
+								<h3 className="card-title">
+									Treat yourself without worrying about money
+								</h3>
+								<p className="card-text text-secondary">
+									Our simple budgeting feature allows you to separate out your
+									spending and set realistic limits each month. That means you …
+								</p>
+							</div>
+						</div>
 					</div>
-					<div className="col-xl-3 text-center text-xl-start">
-						<img
-							src={plane}
-							alt="Plane"
-							className="rounded-top article-image mb-4"
-						/>
-						<h3>Receive money in any currency with no fees</h3>
-						<p className="text-secondary">
-							We want you to enjoy your travels. This is why we don't charge any
-							fees on purchases while you're abroad. We'll even show you …
-						</p>
+					<div className="col-xl-3 mb-5 mb-xl-0">
+						<div className="card border-0">
+							<img src={plane} className="card-img-top" alt="Plane" />
+							<div className="card-body">
+								<h6 class="card-subtitle mt-4 mb-2 text-muted">
+									By Walton Hutton
+								</h6>
+								<h3 className="card-title">
+									Take your Easybank card wherever you go
+								</h3>
+								<p className="card-text text-secondary">
+									We want you to enjoy your travels. This is why we don't charge
+									any fees on purchases while you're abroad. We'll even show you
+									…
+								</p>
+							</div>
+						</div>
 					</div>
-					<div className="col-xl-3 text-center text-xl-start">
-						<img
-							src={confetti}
-							alt="Confetti"
-							className="rounded-top article-image mb-4"
-						/>
-						<h3>Receive money in any currency with no fees</h3>
-						<p className="text-secondary">
-							After a lot of hard work by the whole team, we're excited to
-							launch our closed beta. It's easy to request an invite through the
-							site ...
-						</p>
+					<div className="col-xl-3 mb-5 mb-xl-0">
+						<div className="card border-0">
+							<img src={confetti} className="card-img-top" alt="Plane" />
+							<div className="card-body">
+								<h6 class="card-subtitle mt-4 mb-2 text-muted">
+									By John Smith
+								</h6>
+								<h3 className="card-title">
+									Receive money in any currency with no fees
+								</h3>
+								<p className="card-text text-secondary">
+									After a lot of hard work by the whole team, we're excited to
+									launch our closed beta. It's easy to request an invite through
+									the site ...
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

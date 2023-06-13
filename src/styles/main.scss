@@ -76,8 +76,8 @@ $cyan: hsl(192, 70%, 51%);
 }
 
 .homeBanner {
-	background-image: url("../../public/images/image-mockups.png"),
-		url("../../public/images/bg-intro-desktop.svg");
+	background-image: url("../images/image-mockups.png"),
+		url("../images/bg-intro-desktop.svg");
 	background-repeat: no-repeat, no-repeat;
 	background-size: 460px;
 	// background position center top
@@ -101,13 +101,6 @@ a.footer-text:hover {
 	color: #fff;
 }
 
-.article-image {
-	height: 400px;
-	width: auto;
-	max-width: 100%;
-	margin: 0 auto;
-}
-
 // from the mid breakpoint and up, make #homeBannerRow flex direction reverse
 @media (min-width: 1200px) {
 	#whyChoose {
@@ -128,7 +121,7 @@ a.footer-text:hover {
 			margin-top: 0rem;
 		}
 	}
-	.article-image {
+	.latest-articles .card-img-top {
 		height: 200px;
 	}
 }

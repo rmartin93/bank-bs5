@@ -1,9 +1,9 @@
-import logo from "../../public/images/logo-white.svg";
-import fb from "../../public/images/icon-facebook.svg";
-import yt from "../../public/images/icon-youtube.svg";
-import tw from "../../public/images/icon-twitter.svg";
-import pi from "../../public/images/icon-pinterest.svg";
-import ig from "../../public/images/icon-instagram.svg";
+import logo from "../images/logo-white.svg";
+import fb from "../images/icon-facebook.svg";
+import yt from "../images/icon-youtube.svg";
+import tw from "../images/icon-twitter.svg";
+import pi from "../images/icon-pinterest.svg";
+import ig from "../images/icon-instagram.svg";
 import { Link } from "react-router-dom";
 export default function Footer() {
 	return (

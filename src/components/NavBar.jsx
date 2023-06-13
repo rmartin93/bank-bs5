@@ -1,5 +1,5 @@
 // import logo svg
-import logo from "../../public/images/logo.svg";
+import logo from "../images/logo.svg";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Link } from "react-router-dom";
 export default function NavBar() {
