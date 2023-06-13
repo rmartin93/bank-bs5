@@ -94,49 +94,49 @@ export default function Home() {
 						<img
 							src={currency}
 							alt="Currency"
-							className="rounded-top article-image"
+							className="rounded-top article-image mb-4"
 						/>
 						<h3>Receive money in any currency with no fees</h3>
 						<p className="text-secondary">
 							The world is getting smaller and we're becoming more mobile. So
-							why should you be forced to only receive money in a single …{" "}
+							why should you be forced to only receive money in a single …
 						</p>
 					</div>
 					<div className="col-xl-3 text-center text-xl-start">
 						<img
 							src={restaurant}
 							alt="Restaurant"
-							className="rounded-top article-image"
+							className="rounded-top article-image mb-4"
 						/>
 						<h3>Receive money in any currency with no fees</h3>
 						<p className="text-secondary">
 							Our simple budgeting feature allows you to separate out your
-							spending and set realistic limits each month. That means you …{" "}
+							spending and set realistic limits each month. That means you
 						</p>
 					</div>
 					<div className="col-xl-3 text-center text-xl-start">
 						<img
 							src={plane}
 							alt="Plane"
-							className="rounded-top article-image"
+							className="rounded-top article-image mb-4"
 						/>
 						<h3>Receive money in any currency with no fees</h3>
 						<p className="text-secondary">
 							We want you to enjoy your travels. This is why we don't charge any
-							fees on purchases while you're abroad. We'll even show you …{" "}
+							fees on purchases while you're abroad. We'll even show you …
 						</p>
 					</div>
 					<div className="col-xl-3 text-center text-xl-start">
 						<img
 							src={confetti}
 							alt="Confetti"
-							className="rounded-top article-image"
+							className="rounded-top article-image mb-4"
 						/>
 						<h3>Receive money in any currency with no fees</h3>
 						<p className="text-secondary">
 							After a lot of hard work by the whole team, we're excited to
 							launch our closed beta. It's easy to request an invite through the
-							site ...{" "}
+							site ...
 						</p>
 					</div>
 				</div>
